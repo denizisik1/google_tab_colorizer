@@ -14,11 +14,10 @@
     'use strict';
 
     const tabTextColors = {
-        'All': '#228be6',
-        'Images': '#e03131',
-        'Shopping': '#525252',
-        'Videos': '#fab005',
-        'Maps': '#2f9e44'
+        'All': '#0000FF',
+        'Images': '#FFFF00',
+        'Shopping': '#00FFFF',
+        'Maps': '#00FF00'
     };
 
     function applyTextColors() {
