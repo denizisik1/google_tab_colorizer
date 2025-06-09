@@ -1,0 +1,20 @@
+{
+  "manifest_version": 2,
+  "name": "Google Search Tab Text Colorizer",
+  "version": "1.0",
+
+  "description": "Colorize moving around google tabs to make them more distinctive.",
+
+  "icons": {
+    "48": "icons/48.png",
+    "96": "icons/96.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.google.com/*"],
+      "js": ["app.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
